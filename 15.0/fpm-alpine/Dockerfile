@@ -90,7 +90,7 @@ RUN { \
     chmod -R g=u /var/www
 
 VOLUME /var/www/nextcloud
-
+WORKDIR /var/www/nextcloud
 
 ENV NEXTCLOUD_VERSION 15.0.7
 
